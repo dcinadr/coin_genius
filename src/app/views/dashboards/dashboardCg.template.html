@@ -1,0 +1,385 @@
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>XPR (RIPPLE)</h5>
+                </div>
+                <div class="ibox-content">
+                    <h1 class="no-margins">$1.39</h1>
+                    <div class="stat-percent font-bold text-navy">15%
+                        <i class="fa fa-level-up"></i>
+                    </div>
+                    <small>$53,807,119,719</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>TRU VALUE</h5>
+                </div>
+                <div class="ibox-content">
+                    <h1 class="no-margins">$1.29</h1>
+                    <div class="stat-percent font-bold text-navy">5%
+                        <i class="fa fa-level-up"></i>
+                    </div>
+                    <small>&nbsp;</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>SENTIMENT SCORE</h5>
+                </div>
+                <div class="ibox-content">
+                    <h1 class="no-margins">69%</h1>
+                    <div class="stat-percent font-bold text-danger">3%
+                        <i class="fa fa-level-down"></i>
+                    </div>
+                    <small>&nbsp;</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>COMMUNITY RATING</h5>
+                </div>
+                <div class="ibox-content">
+                    <h1 class="no-margins">8.7</h1>
+                    <div class="stat-percent font-bold text-navy">16%
+                        <i class="fa fa-level-up"></i>
+                    </div>
+                    <small>&nbsp;</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>SENTIMENT</h5>
+                    <div class="pull-right">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-xs btn-white active">?</button>
+                            <button type="button" class="btn btn-xs btn-white">??</button>
+                            <button type="button" class="btn btn-xs btn-white">???</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <div class="flot-chart">
+                                <div flotChart class="flot-chart-content" [options]="flotOptions" [dataset]="flotDataset"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <ul class="stat-list">
+                                <li>
+                                    <h3 class="mo-margins">
+                                        TOP CHANNELS
+                                    </h3>
+                                </li>
+                                <li>
+                                    <h2 class="no-margins">7.9</h2>
+                                    <small>REDDIT</small>
+                                    <div class="stat-percent">8%
+                                        <i class="fa fa-level-up text-navy"></i>
+                                    </div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 50%;" class="progress-bar"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2 class="no-margins ">4.2</h2>
+                                    <small>TWITTER</small>
+                                    <div class="stat-percent">17%
+                                        <i class="fa fa-level-down text-danger"></i>
+                                    </div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 40%;" class="progress-bar"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2 class="no-margins ">4.1</h2>
+                                    <small>TELEGRAM</small>
+                                    <div class="stat-percent">10%
+                                        <i class="fa fa-level-up text-navy"></i>
+                                    </div>
+                                    <div class="progress progress-mini">
+                                        <div style="width: 30%;" class="progress-bar"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>News</h5>
+                    <iboxtools></iboxtools>
+                </div>
+                <div class="ibox-content">
+                    <div class="feed-activity-list">
+    
+                        <div class="feed-element">
+                            <div>
+                                <small class="pull-right text-navy">1m ago</small>
+                                <strong>Coindesk</strong>
+                                <div>UK Government Lures Distributed Ledger</div>
+                                <small class="text-muted"><i class="fa fa-bullseye"></i> 8.7</small>
+                            </div>
+                        </div>
+                        <div class="feed-element">
+                            <div>
+                                <small class="pull-right text-navy">14m ago</small>
+                                <strong>Coin Telegraph</strong>
+                                <div>Virginia Law maker calls for crypto impact study</div>
+                                <small class="text-muted">
+                                    <i class="fa fa-bullseye"></i> 6.2</small>
+                            </div>
+                        </div>
+                        <div class="feed-element">
+                            <div>
+                                <small class="pull-right text-navy">2h ago</small>
+                                <strong>CNBC</strong>
+                                <div>The vast majority of coins are scams</div>
+                                <small class="text-muted">
+                                    <i class="fa fa-bullseye"></i> 3.5</small>
+                            </div>
+                        </div>
+                        <div class="feed-element">
+                            <div>
+                                <small class="pull-right text-navy">3h ago</small>
+                                <strong>Mashable</strong>
+                                <div>Innovating with blockchain</div>
+                                <small class="text-muted">
+                                    <i class="fa fa-bullseye"></i> 7.4</small>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-8">
+    
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>User project list</h5>
+                            <iboxtools></iboxtools>
+                        </div>
+                        <div class="ibox-content">
+                            <table class="table table-hover no-margins">
+                                <thead>
+                                    <tr>
+                                        <th>Status</th>
+                                        <th>Date</th>
+                                        <th>User</th>
+                                        <th>Value</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <small>Pending...</small>
+                                        </td>
+                                        <td>
+                                            <i class="fa fa-clock-o"></i> 11:20pm</td>
+                                        <td>Samantha</td>
+                                        <td class="text-navy">
+                                            <i class="fa fa-level-up"></i> 24% </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="label label-warning">Canceled</span>
+                                        </td>
+                                        <td>
+                                            <i class="fa fa-clock-o"></i> 10:40am</td>
+                                        <td>Monica</td>
+                                        <td class="text-navy">
+                                            <i class="fa fa-level-up"></i> 66% </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <small>Pending...</small>
+                                        </td>
+                                        <td>
+                                            <i class="fa fa-clock-o"></i> 01:30pm</td>
+                                        <td>John</td>
+                                        <td class="text-navy">
+                                            <i class="fa fa-level-up"></i> 54% </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <small>Pending...</small>
+                                        </td>
+                                        <td>
+                                            <i class="fa fa-clock-o"></i> 02:20pm</td>
+                                        <td>Agnes</td>
+                                        <td class="text-navy">
+                                            <i class="fa fa-level-up"></i> 12% </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <small>Pending...</small>
+                                        </td>
+                                        <td>
+                                            <i class="fa fa-clock-o"></i> 09:40pm</td>
+                                        <td>Janet</td>
+                                        <td class="text-navy">
+                                            <i class="fa fa-level-up"></i> 22% </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="label label-primary">Completed</span>
+                                        </td>
+                                        <td>
+                                            <i class="fa fa-clock-o"></i> 04:10am</td>
+                                        <td>Amelia</td>
+                                        <td class="text-navy">
+                                            <i class="fa fa-level-up"></i> 66% </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <small>Pending...</small>
+                                        </td>
+                                        <td>
+                                            <i class="fa fa-clock-o"></i> 12:08am</td>
+                                        <td>Damian</td>
+                                        <td class="text-navy">
+                                            <i class="fa fa-level-up"></i> 23% </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>Small todo list</h5>
+                            <iboxtools></iboxtools>
+                        </div>
+                        <div class="ibox-content">
+                            <ul class="todo-list m-t small-list">
+                                <li *ngFor="let todo of todos; let i=index">
+                                    <a (click)="todo.completed = !todo.completed" class="check-link">
+                                        <i class="fa" [ngClass]="{'fa-check-square': todo.completed,'fa-square-o': !todo.completed}"></i>
+                                    </a>
+                                    <span class="m-l-xs" [ngClass]="{'todo-completed': todo.completed}">{{ todo.name }}</span>
+                                    <small *ngIf="todo.time" class="label label-primary">
+                                        <i class="fa fa-clock-o"></i> {{todo.time}} mins</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>Transactions worldwide</h5>
+                            <iboxtools></iboxtools>
+                        </div>
+                        <div class="ibox-content">
+    
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <table class="table table-hover margin bottom">
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 1%" class="text-center">No.</th>
+                                                <th>Transaction</th>
+                                                <th class="text-center">Date</th>
+                                                <th class="text-center">Amount</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="text-center">1</td>
+                                                <td> Security doors
+                                                </td>
+                                                <td class="text-center small">16 Jun 2014</td>
+                                                <td class="text-center">
+                                                    <span class="label label-primary">$483.00</span>
+                                                </td>
+    
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">2</td>
+                                                <td> Wardrobes
+                                                </td>
+                                                <td class="text-center small">10 Jun 2014</td>
+                                                <td class="text-center">
+                                                    <span class="label label-primary">$327.00</span>
+                                                </td>
+    
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">3</td>
+                                                <td> Set of tools
+                                                </td>
+                                                <td class="text-center small">12 Jun 2014</td>
+                                                <td class="text-center">
+                                                    <span class="label label-warning">$125.00</span>
+                                                </td>
+    
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">4</td>
+                                                <td> Panoramic pictures</td>
+                                                <td class="text-center small">22 Jun 2013</td>
+                                                <td class="text-center">
+                                                    <span class="label label-primary">$344.00</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">5</td>
+                                                <td>Phones</td>
+                                                <td class="text-center small">24 Jun 2013</td>
+                                                <td class="text-center">
+                                                    <span class="label label-primary">$235.00</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">6</td>
+                                                <td>Monitors</td>
+                                                <td class="text-center small">26 Jun 2013</td>
+                                                <td class="text-center">
+                                                    <span class="label label-primary">$100.00</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div jvectormap id="world-map" style="height: 300px;" [options]="mapOptions"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+    
+        </div>
+    
+    
+    </div>
+</div>
